@@ -3,7 +3,7 @@
 **AVIT Faculty Hackathon 2026 — Project 07**  
 CSE × Biotechnology Interdisciplinary Team
 
-[![Open in Streamlit]([https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bloomsanalyzerfinalhackathoncode-kpskpcgdrrzswupec9jpw8.streamlit.app/))
+[![Open in Streamlit]([https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://colony-counterintellisphere-3ftifsae7c8z9urjof27qj.streamlit.app/)
 
 ---
 

@@ -187,6 +187,8 @@ and reports deviations in colony counts.
 ---
 
 # 🔬 System Workflow
+<b><a href="bacterial_colony_counter_architecture.png"> Architecture Diagram</a></b>
+
 
 ```text
 Petri Plate Image

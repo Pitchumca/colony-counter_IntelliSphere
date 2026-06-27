@@ -1,3 +1,4 @@
+
 import os
 import re
 import glob
@@ -37,7 +38,7 @@ st.set_page_config(
     page_icon="🧫"
 )
 
-st.title("🧫 Automated Bacterial Colony Counter - AVIT FACULTY HACKATHON 2026 BY iTECH PVT. LTD.")
+st.title("🧫 Automated Bacterial Colony Counter")
 st.caption("Classical Computer Vision Colony Counter + Countable/Manual-Review Random Forest Classifier")
 
 st.markdown("""
@@ -964,7 +965,7 @@ st.sidebar.header("Image Source")
 
 source = st.sidebar.radio(
     "Choose image source",
-    ["Upload Images", "Upload ZIP within 200 MB"]
+    ["Upload Images", "Upload ZIP", "Large ZIP Path"]
 )
 
 st.sidebar.header("Classical CV Method")
@@ -1669,4 +1670,3 @@ if "results_df" in st.session_state:
             file_name="robustness_analysis_results.csv",
             mime="text/csv",
         )
-

@@ -59,6 +59,11 @@ To address these limitations, this project presents an **Automated Bacterial Col
 The application further integrates a lightweight **Random Forest Machine Learning classifier** whose sole purpose is to determine whether a plate should be automatically counted or flagged for manual review.
 
 This design satisfies the hackathon requirement of separating deterministic colony counting from machine learning-based plate assessment.
+## 📂 Dataset
+
+The bacterial colony image dataset used for validation can be downloaded from Google Drive:
+
+**Dataset:** https://drive.google.com/file/d/1XkhysS1V2OOpCol5UgsncJ240Hh4S9au/view?usp=sharing
 
 ---
 
@@ -197,6 +202,14 @@ and reports deviations in colony counts.
 <b>Figure 1.</b> Overall architecture of the Automated Bacterial Colony Counter.
 </p>
 
+<p align="center">
+  <img src="./automated_bacterial_colony_counter_stack.png"
+       alt="Automated Bacterial Colony Counter Technology Stack"
+       width="900">
+</p>
+<p align="center">
+<b>Figure.</b> Technology stack used in the Automated Bacterial Colony Counter.
+</p>
 
 ```text
 Petri Plate Image

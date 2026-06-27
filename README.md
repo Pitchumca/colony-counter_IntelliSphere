@@ -1,5 +1,5 @@
 
-# 🧫 Automated Bacterial Colony Counter
+# 🧫 Team IntelliSphere - Automated Bacterial Colony Counter
 **AVIT Faculty Hackathon 2026 — Project 07**  
 
 **Classical Computer Vision Colony Counter + Random Forest Countability Classifier**

@@ -1,103 +1,43 @@
+
 # 🧫 Automated Bacterial Colony Counter
-
 **AVIT Faculty Hackathon 2026 — Project 07**  
-CSE × Biotechnology Interdisciplinary Team
 
+**Classical Computer Vision Colony Counter + Random Forest Countability Classifier**
+CSE × Biotechnology Interdisciplinary Team
 [![Open in Streamlit]([https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://colony-counterintellisphere-3ftifsae7c8z9urjof27qj.streamlit.app/)
 
----
 
-## What it does
+> **Developed for the AVIT Faculty Hackathon 2026**
 
-Upload a petri-dish photograph and the app instantly:
-
-- Detects and isolates the inner agar area using Hough Circle transform
-- Counts colonies via two methods:
-  - **Baseline** — Otsu threshold + connected component labelling
-  - **Improved** — marker-controlled watershed (separates touching colonies)
-- Flags overcrowded or contaminated plates for **manual review**
-- Estimates **CFU/mL** using your dilution factor and plated volume
-- Lets you download the full results as a CSV
+A research-oriented application developed as part of the **AVIT Faculty Hackathon 2026**, demonstrating the use of **classical computer vision** and **machine learning** for automated bacterial colony counting and laboratory validation. The system performs deterministic colony counting using robust image processing techniques, while a lightweight Random Forest classifier determines whether a plate is suitable for automatic counting or should be referred for manual review.
 
 ---
 
-## Run locally
+## 🏆 AVIT Faculty Hackathon 2026
 
-```bash
-# 1. Clone
-git clone https://github.com/<your-username>/colony-counter.git
-cd colony-counter
+**Event:** AVIT Faculty Hackathon 2026
 
-# 2. Install dependencies
-pip install -r requirements.txt
+**Institution:** Aarupadai Veedu Institute of Technology (AVIT), Vinayaka Mission's Research Foundation (Deemed to be University)
 
-# 3. Run
-streamlit run app.py
-```
+**Problem Statement:** Automated Bacterial Colony Counter
 
-Then open `http://localhost:8501` in your browser.
+**Theme:** Artificial Intelligence for Biotechnology
 
----
+### Objectives
 
-## Deploy to Streamlit Community Cloud (free)
+* Develop a deterministic classical computer vision pipeline for bacterial colony counting.
+* Compare baseline and improved segmentation methods.
+* Validate automated counts against laboratory manual counts.
+* Classify petri plates as **Countable** or **Manual Review** using a Random Forest classifier.
+* Evaluate robustness under varying lighting conditions and image noise.
+* Deliver a live Streamlit application with comprehensive validation metrics and downloadable reports.
 
-1. **Push this repo to GitHub** (public or private)
-2. Go to [share.streamlit.io](https://share.streamlit.io) → **New app**
-3. Select your repository, branch `main`, and set **Main file path** to `app.py`
-4. Click **Deploy** — live in ~2 minutes
+### Team
 
----
+**Team Name:** IntelliSphere *(Update if your team name is different.)*
 
-## Project structure
+**Department:** Department of Computer Science and Engineering
 
-```
-colony-counter/
-├── app.py              ← Streamlit application (all logic here)
-├── requirements.txt    ← Python dependencies
-└── README.md           ← This file
-```
+**Institution:** Aarupadai Veedu Institute of Technology (AVIT)
 
----
-
-## Parameters (sidebar)
-
-| Parameter | Default | Description |
-|---|---|---|
-| Min colony area | 20 px² | Smallest object counted as a colony |
-| Max colony area | 2000 px² | Largest object counted as a colony |
-| Min distance | 10 px | Minimum centre-to-centre distance (watershed) |
-| Dilution factor | 1×10⁵ | Experimental dilution (e.g. 10⁻⁵ = 1e5) |
-| Volume plated | 0.1 mL | Volume spread per plate |
-
----
-
-## Methods
-
-### Baseline — Simple Thresholding + CCL
-Otsu global threshold → morphological opening → connected component labelling with area filter.  
-**Limitation:** merges touching colonies into one blob.
-
-### Improved — Marker-Controlled Watershed
-Same preprocessing → distance transform → `peak_local_max` seeds one marker per colony → watershed on the negative distance map.  
-**Advantage:** separates touching colonies that the baseline merges.
-
-### Countability Classifier (rule-based)
-A plate is flagged `not_countable` (manual review) if:
-- Coverage ratio > 45 % (likely confluent)
-- Largest component > 10 000 px² (smear / contamination)
-- Fewer than 3 components (empty plate)
-- More than 400 components (TNTC)
-
----
-
-## Dependencies
-
-`opencv-python-headless · scikit-image · scikit-learn · scipy · numpy · pandas · matplotlib · Pillow · streamlit`
-
----
-
-## Team
-
-**Biotechnology** — sample preparation, manual counts, lab coordination  
-**CSE (Data Science)** — CV pipeline, ML classifier, web app  
-Aarupadai Veedu Institute of Technology (AVIT), VMRF Deemed University
+**Year:** 2026

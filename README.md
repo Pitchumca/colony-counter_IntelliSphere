@@ -12,6 +12,15 @@ CSE × Biotechnology Interdisciplinary Team
 A research-oriented application developed as part of the **AVIT Faculty Hackathon 2026**, demonstrating the use of **classical computer vision** and **machine learning** for automated bacterial colony counting and laboratory validation. The system performs deterministic colony counting using robust image processing techniques, while a lightweight Random Forest classifier determines whether a plate is suitable for automatic counting or should be referred for manual review.
 
 ---
+# 🧫 Automated Bacterial Colony Counter
+
+**Classical Computer Vision Colony Counter + Random Forest Countability Classifier**
+
+> **Developed for the AVIT Faculty Hackathon 2026**
+
+A research-oriented application developed as part of the **AVIT Faculty Hackathon 2026**, demonstrating the use of **classical computer vision** and **machine learning** for automated bacterial colony counting and laboratory validation. The system performs deterministic colony counting using robust image processing techniques, while a lightweight Random Forest classifier determines whether a plate is suitable for automatic counting or should be referred for manual review.
+
+---
 
 ## 🏆 AVIT Faculty Hackathon 2026
 
@@ -41,3 +50,6 @@ A research-oriented application developed as part of the **AVIT Faculty Hackatho
 **Institution:** Aarupadai Veedu Institute of Technology (AVIT)
 
 **Year:** 2026
+
+
+

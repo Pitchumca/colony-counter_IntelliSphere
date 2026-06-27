@@ -185,9 +185,17 @@ The application automatically evaluates the effect of
 and reports deviations in colony counts.
 
 ---
-
 # 🔬 System Workflow
-<b><a href="bacterial_colony_counter_architecture.png"> Architecture Diagram</a></b>
+
+<p align="center">
+  <img src="assets/bacterial_colony_counter_architecture.png"
+       alt="Automated Bacterial Colony Counter Architecture"
+       width="1000">
+</p>
+
+<p align="center">
+<b>Figure 1.</b> Overall architecture of the Automated Bacterial Colony Counter.
+</p>
 
 
 ```text

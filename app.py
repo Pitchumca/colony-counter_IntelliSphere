@@ -16,7 +16,7 @@ from sklearn.metrics import (
 )
 
 st.set_page_config(
-    page_title="AVIT Colony Counter",
+    page_title="AVIT Faculty Hackathon 2026 - Project 06 Automated Bacterial Colony Counter",
     layout="wide"
 )
 
@@ -536,7 +536,7 @@ st.sidebar.header("Image Source")
 
 source = st.sidebar.radio(
     "Choose image source",
-    ["Google Drive Folder", "Upload Images", "Upload ZIP"]
+    ["Upload Images", "Upload ZIP"]
 )
 
 st.sidebar.header("Classical CV Method")

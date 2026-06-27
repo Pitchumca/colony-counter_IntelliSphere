@@ -188,7 +188,7 @@ and reports deviations in colony counts.
 # 🔬 System Workflow
 
 <p align="center">
-  <img src="assets/bacterial_colony_counter_architecture.png"
+  <img src="bacterial_colony_counter_architecture.png"
        alt="Automated Bacterial Colony Counter Architecture"
        width="1000">
 </p>

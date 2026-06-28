@@ -5,7 +5,9 @@
 **Classical Computer Vision Colony Counter + Random Forest Countability Classifier**
 CSE × Biotechnology Interdisciplinary Team
 </br>
-<b color="red">Click Here</b>
+<a href="https://colony-counterintellisphere-3ftifsae7c8z9urjof27qj.streamlit.app/" target="_blank" style="color:red; font-size:30px; font-weight:bold; text-decoration:none;">
+    🚀 Click Here
+</a>
 [![Open in Streamlit]([https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://colony-counterintellisphere-3ftifsae7c8z9urjof27qj.streamlit.app/)
 <a href="https://colony-counterintellisphere-3ftifsae7c8z9urjof27qj.streamlit.app/" target="_blank">
   <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" alt="Open in Streamlit" width="260">

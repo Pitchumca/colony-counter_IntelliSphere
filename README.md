@@ -5,7 +5,197 @@
 **Classical Computer Vision Colony Counter + Random Forest Countability Classifier**
 CSE × Biotechnology Interdisciplinary Team
 [![Open in Streamlit]([https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://colony-counterintellisphere-3ftifsae7c8z9urjof27qj.streamlit.app/)
+# ▶️ Running the Project in Google Colab
 
+The project can be executed directly in **Google Colab** without installing Python locally. The notebook automatically installs all required dependencies, creates the Streamlit application, and exposes it through a secure public URL using Cloudflare Tunnel.
+
+## 📓 Google Colab Notebook
+
+**Notebook Name**
+
+`Automated_Bacterial_Colony_Counter_InteeliSphere_Project.ipynb`
+
+---
+
+## 🚀 Execution Steps
+
+### Step 1 — Open the Notebook
+
+Open the notebook in Google Colab.
+
+---
+
+### Step 2 — Execute All Cells
+
+Run the notebook cells sequentially from top to bottom.
+
+The notebook automatically performs the following tasks:
+
+- Creates `requirements.txt`
+- Installs all required Python libraries
+- Generates the Streamlit application (`app.py`)
+- Installs Cloudflare Tunnel
+- Launches the Streamlit server
+- Creates a secure public URL
+
+---
+
+### Step 3 — Wait for Installation
+
+The notebook installs dependencies such as:
+
+- Streamlit
+- OpenCV
+- NumPy
+- Pandas
+- Pillow
+- Scikit-Image
+- Scikit-Learn
+- SciPy
+- Plotly
+- Matplotlib
+- OpenPyXL
+- Joblib
+
+Installation may take several minutes depending on the Colab runtime.
+
+---
+
+### Step 4 — Launch the Application
+
+After installation, the notebook starts the Streamlit application automatically.
+
+```
+streamlit run app.py
+```
+
+---
+
+### Step 5 — Generate the Public URL
+
+Cloudflare Tunnel creates a temporary public URL similar to:
+
+```
+https://xxxxxxxx.trycloudflare.com
+```
+
+Open this URL in any web browser to access the application.
+
+---
+
+## 🧫 Using the Application
+
+Once the application opens:
+
+1. Upload one or more Petri plate images.
+2. Alternatively, upload a ZIP archive containing multiple images.
+3. (Optional) Upload a CSV containing manual colony counts for validation.
+4. Configure image processing parameters if required.
+5. Click **Process All Images**.
+6. Review:
+   - Colony counts
+   - Countability prediction
+   - CFU estimation
+   - Validation metrics
+   - Baseline comparison
+   - Robustness analysis
+7. Download the generated CSV reports.
+
+---
+
+## 📁 Supported Input Formats
+
+### Images
+
+- JPG
+- JPEG
+- PNG
+- BMP
+- TIFF
+
+### Archive
+
+- ZIP
+
+### Validation File
+
+CSV containing:
+
+```
+filename,manual_count,countability_label
+```
+
+---
+
+## 📊 Outputs
+
+The notebook generates:
+
+- Automatic colony counts
+- Countability classification
+- CFU estimation
+- Validation statistics
+- Baseline comparison
+- Robustness analysis
+- Downloadable CSV reports
+- Trained Random Forest model
+
+---
+
+## ⚠️ Important Notes
+
+- Execute the notebook cells **in order**.
+- Keep the Google Colab session active while using the application.
+- Closing the notebook or disconnecting the runtime will terminate the Streamlit server.
+- The Cloudflare public URL is **temporary** and changes each time the notebook is executed.
+- For permanent deployment, use the provided Streamlit Community Cloud or Railway deployment.
+
+---
+
+## 💻 Recommended Runtime
+
+- Google Colab
+- Python 3.10+
+- Runtime Type: CPU (GPU not required)
+- Internet connection required for Cloudflare Tunnel
+
+---
+
+## ✅ Expected Workflow
+
+```
+Open Google Colab Notebook
+            │
+            ▼
+Run All Cells
+            │
+            ▼
+Install Dependencies
+            │
+            ▼
+Generate app.py
+            │
+            ▼
+Start Streamlit Server
+            │
+            ▼
+Create Cloudflare Tunnel
+            │
+            ▼
+Receive Public URL
+            │
+            ▼
+Open Web Browser
+            │
+            ▼
+Upload Petri Plate Images
+            │
+            ▼
+Automatic Colony Counting
+            │
+            ▼
+Validation and Report Generation
+```
 
 > **Developed for the AVIT Faculty Hackathon 2026**
 

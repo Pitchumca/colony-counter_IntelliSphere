@@ -338,3 +338,23 @@ The system provides comprehensive evaluation including:
 | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Dr. S. Kalaivani Priyadarshini**<br>Associate Professor – Department of Biotechnology, Lady Doak College, Madurai | **Domain Expert & Microbiology Validation** | • Validated the biological relevance of the automated colony counting methodology.<br>• Reviewed Petri plate image interpretation and microbiological counting procedures.<br>• Verified the classification criteria for Countable, TFTC (Too Few To Count), and TNTC (Too Numerous To Count) plates according to standard microbiological practices.<br>• Evaluated the laboratory validation strategy, performance metrics, and practical applicability of the system for microbiology and biotechnology laboratories.<br>• Provided expert recommendations to improve the biological accuracy and usability of the developed application. |
 
+
+## 📂 Project Resources
+
+Access all project deliverables from the links below.
+
+| 📌 Resource                             | 🔗 Link                                                                                                                                 |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 🧫 **Prototype (Live Web Application)** | https://colony-counterintellisphere-3ftifsae7c8z9urjof27qj.streamlit.app/                                                               |
+| 📹 **Demo Video**                       | https://drive.google.com/file/d/1Uy4Dcpdv9KbdlUY_x7gmYjy-eQjYKlxB/view?usp=sharing                                                      |
+| 📄 **Technical Report**                 | https://drive.google.com/file/d/1C92yKm847TlNAdrz7_mk2W-Dr9vVcfLB/view?usp=sharing                                                      |
+| 📊 **Project Presentation**             | https://docs.google.com/presentation/d/1nAr53HhZ-50ZK1HgH_-G1kb3fq05GTpU/edit?usp=sharing&ouid=106817736780012115323&rtpof=true&sd=true |
+
+### 📦 Deliverables
+
+* 🧫 Interactive Streamlit Prototype
+* 📹 Complete Project Demonstration Video
+* 📄 Technical Report (Methodology, System Architecture, Experimental Results, Validation, Robustness Analysis, and Limitations)
+* 📊 Final Hackathon Presentation
+* 💻 Complete Source Code and Documentation
+

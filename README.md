@@ -12,13 +12,14 @@ CSE × Biotechnology Interdisciplinary Team
 
 <h2 align="center">🚀 Run the Project</h2>
 
+
 <p align="center">
 
-<a href="https://bloomsanalyzerfinalhackathoncode-kpskpcgdrrzswupec9jpw8.streamlit.app/" target="_blank">
-<img src="https://img.shields.io/badge/🚀%20Run%20Prototype-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Run Prototype">
+<a href="https://colony-counterintellisphere-3ftifsae7c8z9urjof27qj.streamlit.app/" target="_blank">
+<img src="https://img.shields.io/badge/🧫%20Run%20Prototype-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Run Prototype">
 </a>
 
-&nbsp;&nbsp;&nbsp;
+</br>
 
 <a href="https://colab.research.google.com/drive/1ZEi45vDZKYGFrCct8ypYkqkAYrWp62B6?usp=sharing" target="_blank">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Google Colab">

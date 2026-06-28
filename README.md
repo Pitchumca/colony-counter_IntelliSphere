@@ -9,9 +9,22 @@ CSE × Biotechnology Interdisciplinary Team
     🚀 Click Here
 </a>
 [![Open in Streamlit]([https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://colony-counterintellisphere-3ftifsae7c8z9urjof27qj.streamlit.app/)
-<a href="https://colony-counterintellisphere-3ftifsae7c8z9urjof27qj.streamlit.app/" target="_blank">
-  <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" alt="Open in Streamlit" width="260">
+
+<h2 align="center">🚀 Run the Project</h2>
+
+<p align="center">
+
+<a href="https://bloomsanalyzerfinalhackathoncode-kpskpcgdrrzswupec9jpw8.streamlit.app/" target="_blank">
+<img src="https://img.shields.io/badge/🚀%20Run%20Prototype-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Run Prototype">
 </a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="https://colab.research.google.com/drive/1ZEi45vDZKYGFrCct8ypYkqkAYrWp62B6?usp=sharing" target="_blank">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Google Colab">
+</a>
+
+</p>
 > **Developed for the AVIT Faculty Hackathon 2026**
 
 A research-oriented application developed as part of the **AVIT Faculty Hackathon 2026**, demonstrating the use of **classical computer vision** and **machine learning** for automated bacterial colony counting and laboratory validation. The system performs deterministic colony counting using robust image processing techniques, while a lightweight Random Forest classifier determines whether a plate is suitable for automatic counting or should be referred for manual review.
